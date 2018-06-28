@@ -15,10 +15,11 @@
 	<body class="landing is-preload" ng-app="angularRestfulAuth">
 
 		<!-- Page Wrapper -->
+
 			<div id="page-wrapper" data-ng-controller="HomeCtrl">
 
 				<!-- Header -->
-				 <input id="barra-Navegacion" type="text" class="form-control" placeholder="Buscar">
+
 					<header id="header" class="alt">
 						<h1><a href="index.html">Find Cloud </a></h1>
 						<nav id="nav">
@@ -29,7 +30,8 @@
 										<ul>
 											<li><a href="#/">Inicio</a></li>
 											<li><a href="#/login">Ingresar</a></li>
-
+											<li><input id="barra-Navegacion" type="text" class="form-control" placeholder="que desea buscar"></li>
+											<button type="submit" onclick="buscar()">buscar</button>
 											
 										</ul>
 									</div>
@@ -92,6 +94,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="js/Buscador.js"></script>
 
 	</body>
 </html>
